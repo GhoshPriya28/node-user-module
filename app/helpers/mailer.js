@@ -14,14 +14,14 @@ async function sendEmail(email, code) {
     var transporter = nodemailer.createTransport({
       service: 'gmail',
       auth: {
-        user: 'pghosh.pnd@gmail.com',
-        pass: 'ghosh@2050'
+        user: '',
+        pass: ''
       }
     });
 
     var mailOptions = {
-      from: 'pghosh.pnd@gmail.com',
-      to: 'priyaghosh.pnd@gmail.com',
+      from: '',
+      to: '',
       subject: 'Registration with node js',
       html: body_html
     };
